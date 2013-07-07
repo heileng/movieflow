@@ -11,16 +11,16 @@
         android:layout_height="wrap_content" >
 
         <ImageView
-            android:id="@+id/hub_head_img"
+            android:id="@+id/cover"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:scaleType="centerInside"
-            android:src="@drawable/hub_head_img" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/coveru"/>
 
         <ImageView
             android:id="@+id/avatar"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:layout_marginLeft="40dp"
             android:layout_width="wrap_content"
             android:layout_height="150dp" />
